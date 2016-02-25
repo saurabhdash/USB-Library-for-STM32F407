@@ -1,0 +1,11 @@
+HOW TO USE THIS LIBRARY
+ATTENTION:
+Install the VCP Drivers by reading the readme file in that folder 
+if the cmsis files are changes the clock frequency of STM changes. If systemInit() is not called the frequency is 16MHz like the default but if systemInit() is called the frequency change to 84MHz for this library to work.
+
+Copy the folders into the CoIDE project folder and include the contenets of the include folder in the includes section of CoIDE and the contents of the Source folder in the Source section of CoIDE.
+
+Copy the contents of the cmsisboot folder into the folder with the same name and over-write the .h and the .c file.
+
+the functions to send the float value is sendfloat(float n)
+and the function to send string is sendstring(char* s)
